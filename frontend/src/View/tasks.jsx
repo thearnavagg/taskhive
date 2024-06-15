@@ -15,7 +15,7 @@ import AddTask from "../Models/Tasks/AddTask";
 
 const TABS = [
   { title: "Board View", icon: <MdGridView /> },
-  { title: "List View", icon: <FaList /> },
+  // { title: "List View", icon: <FaList /> },
 ];
 
 const TASK_TYPE = {
