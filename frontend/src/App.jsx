@@ -1,17 +1,16 @@
-import { Navigate, Outlet, Route, Routes, useLocation } from "react-router-dom";
-import { Toaster } from "sonner";
-import Dashboard from "./View/Dashboard.jsx";
-import Login from "./View/Login.jsx";
-import Tasks from "./View/Tasks.jsx";
-import Users from "./View/Users.jsx";
-import { useDispatch, useSelector } from "react-redux";
-import Sidebar from "./Models/Sidebar.jsx";
-import Navbar from "./Models/Navbar.jsx";
-import { useRef, Fragment } from "react";
-import { setOpenSidebar } from "./Controller/redux/slices/authSlice.js";
 import { Transition } from "@headlessui/react";
 import clsx from "clsx";
-import { IoClose } from "react-icons/io5";
+import { Fragment } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { Navigate, Outlet, Route, Routes, useLocation } from "react-router-dom";
+import { Toaster } from "sonner";
+import { setOpenSidebar } from "./Controller/redux/slices/authSlice.js";
+import Navbar from "./Models/Navbar.jsx";
+import Sidebar from "./Models/Sidebar.jsx";
+import Dashboard from "./View/Dashboard.jsx";
+import Tasks from "./View/Tasks.jsx";
+import Users from "./View/Users.jsx";
+import Login from "./View/Login.jsx";
 
 function Layout() {
   const { user } = useSelector((state) => state.auth);
@@ -73,8 +72,6 @@ const MobileSidebar = () => {
     </Transition>
   );
 };
-
-
 
 function App() {
   return (
