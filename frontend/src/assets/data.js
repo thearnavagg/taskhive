@@ -21,24 +21,24 @@ export const summary = {
         },
         {
           _id: "65c30b96e639681a13def0b5",
-          name: "Jane Smith",
+          name: "Rohan Sharma",
           title: "Product Manager",
           role: "Manager",
-          email: "jane.smith@example.com",
+          email: "rohansharma@example.com",
         },
         {
           _id: "65c317360fd860f958baa08e",
-          name: "Alex Johnson",
+          name: "Nisha Singh",
           title: "UX Designer",
           role: "Designer",
-          email: "alex.johnson@example.com",
+          email: "nishasingh@example.com",
         },
       ],
       isTrashed: false,
       activities: [],
       subTasks: [
         {
-          title: "Task manager youtube tutorial",
+          title: "Task manager dev",
           date: "2024-06-09T00:00:00.000Z",
           tag: "tutorial",
           _id: "65c5f153b5204a81bde866c8",
@@ -58,10 +58,10 @@ export const summary = {
       team: [
         {
           _id: "65c317360fd860f958baa08e",
-          name: "Alex Johnson",
+          name: "Nisha Singh",
           title: "UX Designer",
           role: "Designer",
-          email: "alex.johnson@example.com",
+          email: "nishasingh@example.com",
         },
         {
           _id: "65c3176a0fd860f958baa099",
@@ -128,17 +128,17 @@ export const summary = {
         },
         {
           _id: "65c27a0e18c0a1b750ad5cad",
-          name: "John Doe",
+          name: "alex",
           title: "Software Engineer",
           role: "Developer",
-          email: "john.doe@example.com",
+          email: "alex@example.com",
         },
         {
           _id: "65c30b96e639681a13def0b5",
-          name: "Jane Smith",
+          name: "Rohan Sharma",
           title: "Product Manager",
           role: "Manager",
-          email: "jane.smith@example.com",
+          email: "rohansharma@example.com",
         },
       ],
       isTrashed: false,
@@ -192,7 +192,7 @@ export const summary = {
     },
     {
       _id: "65c45fb6af6ec0118be94052",
-      title: "Task Manager Youtube Video",
+      title: "Task Manager dev",
       date: "2024-06-11T00:00:00.000Z",
       priority: "medium",
       stage: "completed",
@@ -203,10 +203,10 @@ export const summary = {
       team: [
         {
           _id: "65c317360fd860f958baa08e",
-          name: "Alex Johnson",
+          name: "Nisha Singh",
           title: "UX Designer",
           role: "Designer",
-          email: "alex.johnson@example.com",
+          email: "nishasingh@example.com",
         },
         {
           _id: "65c3176a0fd860f958baa099",
@@ -254,10 +254,10 @@ export const summary = {
       team: [
         {
           _id: "65c30b96e639681a13def0b5",
-          name: "Jane Smith",
+          name: "Rohan Sharma",
           title: "Product Manager",
           role: "Manager",
-          email: "jane.smith@example.com",
+          email: "rohansharma@example.com",
         },
         {
           _id: "65c202d4aa62f32ffd1303cc",
@@ -268,10 +268,10 @@ export const summary = {
         },
         {
           _id: "65c317360fd860f958baa08e",
-          name: "Alex Johnson",
+          name: "Nisha Singh",
           title: "UX Designer",
           role: "Designer",
-          email: "alex.johnson@example.com",
+          email: "nishasingh@example.com",
         },
       ],
       isTrashed: false,
@@ -313,17 +313,17 @@ export const summary = {
         },
         {
           _id: "65c27a0e18c0a1b750ad5cad",
-          name: "John Doe",
+          name: "alex",
           title: "Software Engineer",
           role: "Developer",
-          email: "john.doe@example.com",
+          email: "alex@example.com",
         },
         {
           _id: "65c30b96e639681a13def0b5",
-          name: "Jane Smith",
+          name: "Rohan Sharma",
           title: "Product Manager",
           role: "Manager",
-          email: "jane.smith@example.com",
+          email: "rohansharma@example.com",
         },
       ],
       isTrashed: false,
@@ -356,10 +356,10 @@ export const summary = {
       team: [
         {
           _id: "65c317360fd860f958baa08e",
-          name: "Alex Johnson",
+          name: "Nisha Singh",
           title: "UX Designer",
           role: "Designer",
-          email: "alex.johnson@example.com",
+          email: "nishasingh@example.com",
         },
         {
           _id: "65c3176a0fd860f958baa099",
@@ -400,17 +400,17 @@ export const summary = {
         },
         {
           _id: "65c27a0e18c0a1b750ad5cad",
-          name: "John Doe",
+          name: "alex",
           title: "Software Engineer",
           role: "Developer",
-          email: "john.doe@example.com",
+          email: "alex@example.com",
         },
         {
           _id: "65c30b96e639681a13def0b5",
-          name: "Jane Smith",
+          name: "Rohan Sharma",
           title: "Product Manager",
           role: "Manager",
-          email: "jane.smith@example.com",
+          email: "rohansharma@example.com",
         },
       ],
       isTrashed: false,
@@ -443,10 +443,10 @@ export const summary = {
       team: [
         {
           _id: "65c317360fd860f958baa08e",
-          name: "Alex Johnson",
+          name: "Nisha Singh",
           title: "UX Designer",
           role: "Designer",
-          email: "alex.johnson@example.com",
+          email: "nishasingh@example.com",
         },
         {
           _id: "65c3176a0fd860f958baa099",
@@ -487,17 +487,17 @@ export const summary = {
         },
         {
           _id: "65c27a0e18c0a1b750ad5cad",
-          name: "John Doe",
+          name: "alex",
           title: "Software Engineer",
           role: "Developer",
-          email: "john.doe@example.com",
+          email: "alex@example.com",
         },
         {
           _id: "65c30b96e639681a13def0b5",
-          name: "Jane Smith",
+          name: "Rohan Sharma",
           title: "Product Manager",
           role: "Manager",
-          email: "jane.smith@example.com",
+          email: "rohansharma@example.com",
         },
       ],
       isTrashed: false,
@@ -540,7 +540,7 @@ export const summary = {
     },
     {
       _id: "65c317360fd860f958baa08e",
-      name: "Alex Johnson",
+      name: "Nisha Singh",
       title: "UX Designer",
       role: "Designer",
       isActive: true,
@@ -548,7 +548,7 @@ export const summary = {
     },
     {
       _id: "65c30b96e639681a13def0b5",
-      name: "Jane Smith",
+      name: "Rohan Sharma",
       title: "Product Manager",
       role: "Manager",
       isActive: true,
@@ -609,22 +609,22 @@ export const tasks = [
       },
       {
         _id: "65c30b96e639681a13def0b5",
-        name: "Jane Smith",
+        name: "Rohan Sharma",
         title: "Product Manager",
-        email: "jane.smith@example.com",
+        email: "rohansharma@example.com",
       },
       {
         _id: "65c317360fd860f958baa08e",
-        name: "Alex Johnson",
+        name: "Nisha Singh",
         title: "UX Designer",
-        email: "alex.johnson@example.com",
+        email: "nishasingh@example.com",
       },
     ],
     isTrashed: false,
     activities: [],
     subTasks: [
       {
-        title: "Task manager youtube tutorial",
+        title: "Task manager dev",
         date: "2024-06-09T00:00:00.000Z",
         tag: "tutorial",
         _id: "65c5f153b5204a81bde866c8",
@@ -644,9 +644,9 @@ export const tasks = [
     team: [
       {
         _id: "65c317360fd860f958baa08e",
-        name: "Alex Johnson",
+        name: "Nisha Singh",
         title: "UX Designer",
-        email: "alex.johnson@example.com",
+        email: "nishasingh@example.com",
       },
       {
         _id: "65c3176a0fd860f958baa099",
@@ -711,15 +711,15 @@ export const tasks = [
       },
       {
         _id: "65c27a0e18c0a1b750ad5cad",
-        name: "John Doe",
+        name: "alex",
         title: "Software Engineer",
-        email: "john.doe@example.com",
+        email: "alex@example.com",
       },
       {
         _id: "65c30b96e639681a13def0b5",
-        name: "Jane Smith",
+        name: "Rohan Sharma",
         title: "Product Manager",
-        email: "jane.smith@example.com",
+        email: "rohansharma@example.com",
       },
     ],
     isTrashed: false,
@@ -773,7 +773,7 @@ export const tasks = [
   },
   {
     _id: "65c45fb6af6ec0118be94052",
-    title: "Task Manager Youtube Video",
+    title: "Task Manager dev",
     date: "2024-06-11T00:00:00.000Z",
     priority: "medium",
     stage: "completed",
@@ -784,9 +784,9 @@ export const tasks = [
     team: [
       {
         _id: "65c317360fd860f958baa08e",
-        name: "Alex Johnson",
+        name: "Nisha Singh",
         title: "UX Designer",
-        email: "alex.johnson@example.com",
+        email: "nishasingh@example.com",
       },
       {
         _id: "65c3176a0fd860f958baa099",
@@ -847,9 +847,9 @@ export const tasks = [
     team: [
       {
         _id: "65c30b96e639681a13def0b5",
-        name: "Jane Smith",
+        name: "Rohan Sharma",
         title: "Product Manager",
-        email: "jane.smith@example.com",
+        email: "rohansharma@example.com",
       },
       {
         _id: "65c202d4aa62f32ffd1303cc",
@@ -859,9 +859,9 @@ export const tasks = [
       },
       {
         _id: "65c317360fd860f958baa08e",
-        name: "Alex Johnson",
+        name: "Nisha Singh",
         title: "UX Designer",
-        email: "alex.johnson@example.com",
+        email: "nishasingh@example.com",
       },
     ],
     isTrashed: false,
@@ -902,15 +902,15 @@ export const tasks = [
       },
       {
         _id: "65c27a0e18c0a1b750ad5cad",
-        name: "John Doe",
+        name: "alex",
         title: "Software Engineer",
-        email: "john.doe@example.com",
+        email: "alex@example.com",
       },
       {
         _id: "65c30b96e639681a13def0b5",
-        name: "Jane Smith",
+        name: "Rohan Sharma",
         title: "Product Manager",
-        email: "jane.smith@example.com",
+        email: "rohansharma@example.com",
       },
     ],
     isTrashed: false,
@@ -943,9 +943,9 @@ export const tasks = [
     team: [
       {
         _id: "65c317360fd860f958baa08e",
-        name: "Alex Johnson",
+        name: "Nisha Singh",
         title: "UX Designer",
-        email: "alex.johnson@example.com",
+        email: "nishasingh@example.com",
       },
       {
         _id: "65c3176a0fd860f958baa099",
@@ -984,15 +984,15 @@ export const tasks = [
       },
       {
         _id: "65c27a0e18c0a1b750ad5cad",
-        name: "John Doe",
+        name: "alex",
         title: "Software Engineer",
-        email: "john.doe@example.com",
+        email: "alex@example.com",
       },
       {
         _id: "65c30b96e639681a13def0b5",
-        name: "Jane Smith",
+        name: "Rohan Sharma",
         title: "Product Manager",
-        email: "jane.smith@example.com",
+        email: "rohansharma@example.com",
       },
     ],
     isTrashed: false,
@@ -1025,9 +1025,9 @@ export const tasks = [
     team: [
       {
         _id: "65c317360fd860f958baa08e",
-        name: "Alex Johnson",
+        name: "Nisha Singh",
         title: "UX Designer",
-        email: "alex.johnson@example.com",
+        email: "nishasingh@example.com",
       },
       {
         _id: "65c3176a0fd860f958baa099",
@@ -1066,15 +1066,15 @@ export const tasks = [
       },
       {
         _id: "65c27a0e18c0a1b750ad5cad",
-        name: "John Doe",
+        name: "alex",
         title: "Software Engineer",
-        email: "john.doe@example.com",
+        email: "alex@example.com",
       },
       {
         _id: "65c30b96e639681a13def0b5",
-        name: "Jane Smith",
+        name: "Rohan Sharma",
         title: "Product Manager",
-        email: "jane.smith@example.com",
+        email: "rohansharma@example.com",
       },
     ],
     isTrashed: false,
