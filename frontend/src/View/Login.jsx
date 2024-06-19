@@ -1,3 +1,5 @@
+// Login.jsx
+
 import React, { useEffect } from "react";
 import { useForm } from "react-hook-form";
 import { useDispatch, useSelector } from "react-redux";
@@ -22,17 +24,17 @@ const Login = () => {
   const submitHandler = async (data) => {
     try {
       const result = await login(data).unwrap();
-      dispatch(setCredentials(result));
+      dispatch(setCredentials(result)); // Dispatch action to update user upon successful login
       navigate("/");
     } catch (error) {
       console.log(error);
-      toast.error(error?.data?.message || error.message);
+      // Handle error appropriately
     }
   };
 
   useEffect(() => {
     user && navigate("/dashboard");
-  }, [user]);
+  }, [user, navigate]);
 
   return (
     <div className="w-full min-h-screen flex items-center justify-center bg-gray-100">
@@ -81,11 +83,15 @@ const Login = () => {
             <span className="text-sm text-gray-500 hover:text-blue-600 hover:underline cursor-pointer">
               Forget Password?
             </span>
-            { isLoading ? <Loading/> : <Button
-              type="submit"
-              label="Submit"
-              className="w-full h-10 bg-blue-700 text-white rounded-full"
-            />}
+            {isLoading ? (
+              <Loading />
+            ) : (
+              <Button
+                type="submit"
+                label="Submit"
+                className="w-full h-10 bg-blue-700 text-white rounded-full"
+              />
+            )}
           </div>
         </form>
       </div>
@@ -94,69 +100,3 @@ const Login = () => {
 };
 
 export default Login;
-
-// import React from "react";
-// import { useNavigate } from "react-router-dom";
-// import Button from "../Models/Button";
-// import Textbox from "../Models/Textbox";
-
-// const Login = () => {
-//   const navigate = useNavigate();
-
-//   const handleSubmit = (e) => {
-//     e.preventDefault();
-//     navigate("/dashboard");
-//   };
-
-//   return (
-//     <div className="w-full min-h-screen flex items-center justify-center bg-gray-100">
-//       <div className="w-full max-w-screen-lg flex flex-col lg:flex-row items-center justify-center gap-8 p-4 lg:p-8">
-//         {/* Left side */}
-//         <div className="flex-grow w-full lg:w-2/3 flex flex-col items-center justify-center p-5">
-//           <div className="w-full max-w-lg lg:max-w-2xl flex flex-col items-center gap-6 lg:gap-8">
-//             <span className="py-2 px-4 border rounded-full text-sm lg:text-lg border-gray-300 text-gray-700 shadow-sm">
-//               Manage all your tasks in one place 🤘
-//             </span>
-//             <p className="flex flex-col gap-2 lg:gap-5 text-4xl lg:text-6xl font-extrabold text-center text-blue-800">
-//               <span>TaskHive</span>
-//               <span>The One-Stop Task Manager</span>
-//             </p>
-//           </div>
-//         </div>
-
-//         <form
-//           onSubmit={handleSubmit}
-//           className="w-full lg:w-1/2 flex flex-col gap-y-8 bg-white p-10 rounded-lg shadow-lg"
-//         >
-//           <p className="text-2xl font-bold text-center">Welcome back!</p>
-//           <div className="flex flex-col gap-y-5">
-//             <Textbox
-//               placeholder="youremail@email.com 📧"
-//               type="email"
-//               name="email"
-//               label="Email Address"
-//               className="w-full rounded-full"
-//             />
-//             <Textbox
-//               placeholder="Your Password 🔑"
-//               type="password"
-//               name="password"
-//               label="Password"
-//               className="w-full rounded-full"
-//             />
-//             <span className="text-sm text-gray-500 hover:text-blue-600 hover:underline cursor-pointer">
-//               Forget Password?
-//             </span>
-//             <Button
-//               type="submit"
-//               label="Submit"
-//               className="w-full h-10 bg-blue-700 text-white rounded-full"
-//             />
-//           </div>
-//         </form>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Login;

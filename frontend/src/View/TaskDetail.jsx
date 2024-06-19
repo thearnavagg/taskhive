@@ -15,8 +15,7 @@ import { RxActivityLog } from "react-icons/rx";
 import { useParams } from "react-router-dom";
 import { tasks } from "../assets/data";
 import Tabs from "../Models/Tabs";
-import { PRIOTITYSTYELS, TASK_TYPE, getInitials } from "../utils";
-import { getInitials, TASK_TYPE, getInitials } from "..";
+import { getInitials, TASK_TYPE, PRIOTITYSTYELS } from "..";
 import Loading from "../Models/Loader";
 import Button from "../Models/Button";
 
