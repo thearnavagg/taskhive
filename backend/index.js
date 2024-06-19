@@ -11,13 +11,11 @@ dotenv.config();
 
 dbConnection();
 
-const PORT = process.env.PORT || 5000;
-
 const app = express();
 
 app.use(
   cors({
-    origin: ["http://localhost:3000", "http://localhost:3001"],
+    origin: ["http://localhost:3000", "thetaskhive.vercel.app"],
     methods: ["GET", "POST", "DELETE", "PUT"],
     credentials: true,
   })
@@ -34,4 +32,5 @@ app.use("/api", routes);
 app.use(routeNotFound);
 app.use(errorHandler);
 
-app.listen(PORT, () => console.log(`Server listening on ${PORT}`));
+// Export the app for Vercel to handle
+export default app;
