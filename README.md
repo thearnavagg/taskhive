@@ -1,6 +1,11 @@
 # Cloud-Based Task Manager
 
 The Taskhive is a web application designed to enhance team task management using the MERN stack (MongoDB, Express.js, React, and Node.js). It offers a streamlined interface for efficient task assignment, tracking, and collaboration, catering to both administrators and regular users to boost productivity and organization.
+
+## Login Credential
+Username: admin@gmail.com
+password: admin@gmail.com
+
 ## Admin Features
 
 1. **User Management:**
